@@ -13,7 +13,7 @@ $(document).ready(function() {
 			'<span class="button-label">delete</span>' + '</button>' + 
 			'</li>');
 
-		$(this)[0].reset();
+		$("#shopping-list-entry").val('');
 
 	});
 
